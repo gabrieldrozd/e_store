@@ -20,16 +20,36 @@ namespace Business.Data.Repositories
 
         public async Task<Product> GetProductByIdAsync(int productId)
         {
-            var product = await _context.Products.FindAsync(productId);
+            var product = await _context.Products
+                .Include(p => p.ProductBrand)
+                .Include(p => p.ProductType)
+                .FirstOrDefaultAsync(p => p.Id == productId);
 
             return product;
         }
 
         public async Task<IReadOnlyList<Product>> GetProductsAsync()
         {
-            var products = await _context.Products.ToListAsync();
+            var products = await _context.Products
+                .Include(p => p.ProductBrand)
+                .Include(p => p.ProductType)
+                .ToListAsync();
 
             return products;
+        }
+
+        public async Task<IReadOnlyList<ProductBrand>> GetProductBrandsAsync()
+        {
+            var brands = await _context.ProductBrands.ToListAsync();
+
+            return brands;
+        }
+
+        public async Task<IReadOnlyList<ProductType>> GetProductTypesAsync()
+        {
+            var types = await _context.ProductTypes.ToListAsync();
+
+            return types;
         }
     }
 }
