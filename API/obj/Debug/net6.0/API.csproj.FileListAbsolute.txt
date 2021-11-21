@@ -55,3 +55,6 @@ C:\Users\drozd\source\repos\e_store\e_store\API\obj\Debug\net6.0\API.pdb
 C:\Users\drozd\source\repos\e_store\e_store\API\obj\Debug\net6.0\API.genruntimeconfig.cache
 C:\Users\drozd\source\repos\e_store\e_store\API\bin\Debug\net6.0\Humanizer.dll
 C:\Users\drozd\source\repos\e_store\e_store\API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\drozd\source\repos\e_store\e_store\API\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\drozd\source\repos\e_store\e_store\API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\drozd\source\repos\e_store\e_store\API\bin\Debug\net6.0\API.staticwebassets.runtime.json

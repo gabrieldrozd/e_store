@@ -1,6 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using API.DTOs;
+using AutoMapper;
 using Business.Data;
 using Core.Entities;
 using Core.Interfaces;
@@ -17,13 +19,16 @@ namespace API.Controllers
         private readonly IGenericRepository<Product> _productsRepo;
         private readonly IGenericRepository<ProductBrand> _productBrandsRepo;
         private readonly IGenericRepository<ProductType> _productTypesRepo;
+        private readonly IMapper _mapper;
 
         public ProductsController(IGenericRepository<Product> productsRepo,
-        IGenericRepository<ProductBrand> productBrandsRepo, IGenericRepository<ProductType> productTypesRepo)
+        IGenericRepository<ProductBrand> productBrandsRepo, IGenericRepository<ProductType> productTypesRepo,
+        IMapper mapper)
         {
             _productsRepo = productsRepo;
             _productBrandsRepo = productBrandsRepo;
             _productTypesRepo = productTypesRepo;
+            _mapper = mapper;
         }
 
         #region Get Actions
@@ -34,7 +39,9 @@ namespace API.Controllers
 
             var product = await _productsRepo.GetEntityWithSpec(spec);
 
-            return Ok(product);
+            var productToReturn = _mapper.Map<Product, ProductToReturnDTO>(product);
+
+            return Ok(productToReturn);
         }
 
         [HttpGet]
@@ -44,7 +51,9 @@ namespace API.Controllers
 
             var products = await _productsRepo.GetListWithSpecAsync(spec);
 
-            return Ok(products);
+            var productsToReturn = _mapper.Map<IReadOnlyList<Product>, IReadOnlyList<ProductToReturnDTO>>(products);
+
+            return Ok(productsToReturn);
         }
 
         [HttpGet("brands")]
