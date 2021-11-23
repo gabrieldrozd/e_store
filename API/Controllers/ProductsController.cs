@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Threading.Tasks;
 using API.DTOs;
+using API.Errors;
 using AutoMapper;
 using Business.Data;
 using Core.Entities;
@@ -31,11 +32,18 @@ namespace API.Controllers
 
         #region Get Actions
         [HttpGet("{productId}")]
-        public async Task<ActionResult<Product>> GetProduct(int productId)
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status404NotFound)]
+        public async Task<ActionResult<ProductToReturnDTO>> GetProduct(int productId)
         {
             var spec = new ProductsWithBrandsAndTypesSpecification(productId);
 
             var product = await _productsRepo.GetEntityWithSpec(spec);
+
+            if (product == null)
+            {
+                return NotFound(new ApiResponse(404));
+            }
 
             var productToReturn = _mapper.Map<Product, ProductToReturnDTO>(product);
 
@@ -43,11 +51,18 @@ namespace API.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IReadOnlyList<Product>>> GetProducts()
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status404NotFound)]
+        public async Task<ActionResult<IReadOnlyList<ProductToReturnDTO>>> GetProducts()
         {
             var spec = new ProductsWithBrandsAndTypesSpecification();
 
             var products = await _productsRepo.GetListWithSpecAsync(spec);
+
+            if (products == null)
+            {
+                return NotFound(new ApiResponse(404));
+            }
 
             var productsToReturn = _mapper.Map<IReadOnlyList<Product>, IReadOnlyList<ProductToReturnDTO>>(products);
 
