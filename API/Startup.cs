@@ -42,8 +42,8 @@ namespace API
 
             app.UseAuthorization();
 
-            // Use swagger
             app.UseSwaggerDocumentation();
+            // Use swagger
 
             app.UseEndpoints(endpoints =>
             {
