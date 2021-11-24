@@ -38,5 +38,15 @@ namespace Core.Specifications
         /// Sort parameter (priceAsc | priceDesc)
         /// </summary>
         public string Sort { get; set; }
+
+        private string _search;
+        /// <summary>
+        /// Search phrase to be found
+        /// </summary>
+        public string Search
+        {
+            get => _search;
+            set => _search = value.ToLower();
+        }
     }
 }

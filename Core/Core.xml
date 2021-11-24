@@ -34,5 +34,10 @@
             Sort parameter (priceAsc | priceDesc)
             </summary>
         </member>
+        <member name="P:Core.Specifications.ProductSpecParams.Search">
+            <summary>
+            Search phrase to be found
+            </summary>
+        </member>
     </members>
 </doc>
