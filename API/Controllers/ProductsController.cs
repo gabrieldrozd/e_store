@@ -3,6 +3,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using API.DTOs;
 using API.Errors;
+using API.Helpers;
 using AutoMapper;
 using Business.Data;
 using Core.Entities;
@@ -31,6 +32,11 @@ namespace API.Controllers
         }
 
         #region Get Actions
+        /// <summary>
+        /// Action used to return single PRODUCT entity with given Id
+        /// </summary>
+        /// <param name="productId">Id of entity to be returned</param>
+        /// <returns>Entity of type Product with id = productId</returns>
         [HttpGet("{productId}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status404NotFound)]
@@ -50,12 +56,22 @@ namespace API.Controllers
             return Ok(productToReturn);
         }
 
+        /// <summary>
+        /// Action used to return ReadOnlyList of PRODUCTS with specified filters
+        /// </summary>
+        /// <param name="productParams">Body of few parameters used to filter, sort or to limit list of PRODUCTS</param>
+        /// <returns>IReadOnlyList of PRODUCTS with executed actions of filtering, sorting, limiting the List</returns>
         [HttpGet]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status404NotFound)]
-        public async Task<ActionResult<IReadOnlyList<ProductToReturnDTO>>> GetProducts(string sort, int? brandId, int? typeId)
+        public async Task<ActionResult<Pagination<ProductToReturnDTO>>> GetProducts(
+            [FromQuery]ProductSpecParams productParams)
         {
-            var spec = new ProductsWithBrandsAndTypesSpecification(sort, brandId, typeId);
+            var spec = new ProductsWithBrandsAndTypesSpecification(productParams);
+
+            var countSpec = new ProductsWithFiltersForCountSpecification(productParams);
+
+            var totalItems = await _productsRepo.CountAsync(countSpec);
 
             var products = await _productsRepo.GetListWithSpecAsync(spec);
 
@@ -64,11 +80,18 @@ namespace API.Controllers
                 return NotFound(new ApiResponse(404));
             }
 
-            var productsToReturn = _mapper.Map<IReadOnlyList<Product>, IReadOnlyList<ProductToReturnDTO>>(products);
+            var data = _mapper.Map<IReadOnlyList<Product>, IReadOnlyList<ProductToReturnDTO>>(products);
+
+            var productsToReturn = new Pagination<ProductToReturnDTO>(
+                productParams.PageIndex, productParams.PageSize, totalItems, data);
 
             return Ok(productsToReturn);
         }
 
+        /// <summary>
+        /// Action used to return ReadOnlyList of PRODUCT BRANDS
+        /// </summary>
+        /// <returns>IReadOnlyList of PRODUCT BRANDS</returns>
         [HttpGet("brands")]
         public async Task<ActionResult<IReadOnlyList<ProductBrand>>> GetProductBrands()
         {
@@ -77,6 +100,10 @@ namespace API.Controllers
             return Ok(brands);
         }
 
+        /// <summary>
+        /// Action used to return ReadOnlyList of PRODUCT TYPES
+        /// </summary>
+        /// <returns>IReadOnlyList of PRODUCT TYPES</returns>
         [HttpGet("types")]
         public async Task<ActionResult<IReadOnlyList<ProductBrand>>> GetProductTypes()
         {

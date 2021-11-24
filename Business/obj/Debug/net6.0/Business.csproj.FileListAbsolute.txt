@@ -13,3 +13,4 @@ C:\Users\drozd\source\repos\e_store\e_store\Business\obj\Debug\net6.0\Business.p
 C:\Users\drozd\source\repos\e_store\e_store\Business\bin\Debug\net6.0\Core.dll
 C:\Users\drozd\source\repos\e_store\e_store\Business\bin\Debug\net6.0\Core.pdb
 C:\Users\drozd\source\repos\e_store\e_store\Business\obj\Debug\net6.0\Business.csproj.CopyComplete
+C:\Users\drozd\source\repos\e_store\e_store\Business\bin\Debug\net6.0\Core.xml

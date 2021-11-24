@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Wp8V7wF/22JRkrhwwRqSFhGLPY5xfl66PPq0MKPNuoI=",
+  "Hash": "ug9ms0pbiBP2uFFO+sGu1Ud3Zk+jNCMKa90OvVypyko=",
   "Source": "API",
   "BasePath": "_content/API",
   "Mode": "Default",
@@ -16,6 +16,23 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\drozd\\source\\repos\\e_store\\e_store\\API\\wwwroot\\assets\\css\\swaggerStyle.css",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\drozd\\source\\repos\\e_store\\e_store\\API\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "assets/css/swaggerStyle.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\css\\swaggerStyle.css"
+    },
     {
       "Identity": "C:\\Users\\drozd\\source\\repos\\e_store\\e_store\\API\\wwwroot\\images\\products\\boot-ang1.png",
       "SourceId": "API",

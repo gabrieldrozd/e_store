@@ -3,6 +3,8 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <DocumentationFile>C:\Users\drozd\source\repos\e_store\e_store\Core\Core.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
