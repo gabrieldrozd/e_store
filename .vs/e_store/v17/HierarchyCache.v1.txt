@@ -1,0 +1,236 @@
+﻿++Solution 'e_store' ‎(3 of 3 projects)
+i:{00000000-0000-0000-0000-000000000000}:e_store.sln
+++Core
+i:{00000000-0000-0000-0000-000000000000}:Core
+i:{18fca78c-5679-4bee-aeac-d11ae3d6dc92}:c:\users\drozd\source\repos\e_store\e_store\core\bin\debug\net6.0\core.dll
+++Dependencies
+i:{9a3f3145-302d-40e6-a8e6-f2891ba97476}:>360
+i:{18fca78c-5679-4bee-aeac-d11ae3d6dc92}:>359
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:>524
+++Entities
+i:{9a3f3145-302d-40e6-a8e6-f2891ba97476}:c:\users\drozd\source\repos\e_store\e_store\core\entities\
+++Interfaces
+i:{9a3f3145-302d-40e6-a8e6-f2891ba97476}:c:\users\drozd\source\repos\e_store\e_store\core\interfaces\
+++Specifications
+i:{9a3f3145-302d-40e6-a8e6-f2891ba97476}:c:\users\drozd\source\repos\e_store\e_store\core\specifications\
+++BaseSpecification.cs
+i:{9a3f3145-302d-40e6-a8e6-f2891ba97476}:c:\users\drozd\source\repos\e_store\e_store\core\specifications\basespecification.cs
+++ISpecification.cs
+i:{9a3f3145-302d-40e6-a8e6-f2891ba97476}:c:\users\drozd\source\repos\e_store\e_store\core\specifications\ispecification.cs
+++ProductsWithBrandsAndTypesSpecification.cs
+i:{9a3f3145-302d-40e6-a8e6-f2891ba97476}:c:\users\drozd\source\repos\e_store\e_store\core\specifications\productswithbrandsandtypesspecification.cs
+++Analyzers
+i:{9a3f3145-302d-40e6-a8e6-f2891ba97476}:analyzers
+i:{18fca78c-5679-4bee-aeac-d11ae3d6dc92}:analyzers
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:analyzers
+++Frameworks
+i:{9a3f3145-302d-40e6-a8e6-f2891ba97476}:frameworks
+i:{18fca78c-5679-4bee-aeac-d11ae3d6dc92}:frameworks
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:frameworks
+++Packages
+i:{9a3f3145-302d-40e6-a8e6-f2891ba97476}:packages
+i:{18fca78c-5679-4bee-aeac-d11ae3d6dc92}:packages
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:packages
+++BaseEntity.cs
+i:{9a3f3145-302d-40e6-a8e6-f2891ba97476}:c:\users\drozd\source\repos\e_store\e_store\core\entities\baseentity.cs
+++Product.cs
+i:{9a3f3145-302d-40e6-a8e6-f2891ba97476}:c:\users\drozd\source\repos\e_store\e_store\core\entities\product.cs
+++ProductBrand.cs
+i:{9a3f3145-302d-40e6-a8e6-f2891ba97476}:c:\users\drozd\source\repos\e_store\e_store\core\entities\productbrand.cs
+++ProductType.cs
+i:{9a3f3145-302d-40e6-a8e6-f2891ba97476}:c:\users\drozd\source\repos\e_store\e_store\core\entities\producttype.cs
+++IGenericRepository.cs
+i:{9a3f3145-302d-40e6-a8e6-f2891ba97476}:c:\users\drozd\source\repos\e_store\e_store\core\interfaces\igenericrepository.cs
+++IProductRepository.cs
+i:{9a3f3145-302d-40e6-a8e6-f2891ba97476}:c:\users\drozd\source\repos\e_store\e_store\core\interfaces\iproductrepository.cs
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{9a3f3145-302d-40e6-a8e6-f2891ba97476}:c:\program files (x86)\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{18fca78c-5679-4bee-aeac-d11ae3d6dc92}:c:\program files (x86)\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\program files (x86)\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{9a3f3145-302d-40e6-a8e6-f2891ba97476}:c:\program files (x86)\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{18fca78c-5679-4bee-aeac-d11ae3d6dc92}:c:\program files (x86)\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\program files (x86)\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{9a3f3145-302d-40e6-a8e6-f2891ba97476}:c:\users\drozd\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.0\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{18fca78c-5679-4bee-aeac-d11ae3d6dc92}:c:\users\drozd\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.0\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.0\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{9a3f3145-302d-40e6-a8e6-f2891ba97476}:c:\users\drozd\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{18fca78c-5679-4bee-aeac-d11ae3d6dc92}:c:\users\drozd\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\program files (x86)\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++System.Text.Json.SourceGeneration
+i:{9a3f3145-302d-40e6-a8e6-f2891ba97476}:c:\program files (x86)\dotnet\packs\microsoft.netcore.app.ref\6.0.0\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{18fca78c-5679-4bee-aeac-d11ae3d6dc92}:c:\program files (x86)\dotnet\packs\microsoft.netcore.app.ref\6.0.0\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\program files (x86)\dotnet\packs\microsoft.netcore.app.ref\6.0.0\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.NETCore.App
+i:{9a3f3145-302d-40e6-a8e6-f2891ba97476}:c:\users\drozd\source\repos\e_store\e_store\core\microsoft.netcore.app
+i:{18fca78c-5679-4bee-aeac-d11ae3d6dc92}:c:\users\drozd\source\repos\e_store\e_store\business\microsoft.netcore.app
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\microsoft.netcore.app
+++Microsoft.EntityFrameworkCore.Design (6.0.0)
+i:{9a3f3145-302d-40e6-a8e6-f2891ba97476}:>560
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:>546
+++Microsoft.EntityFrameworkCore.Tools (6.0.0)
+i:{9a3f3145-302d-40e6-a8e6-f2891ba97476}:>563
+++Business
+i:{00000000-0000-0000-0000-000000000000}:Business
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\business\business.csproj
+++Data
+i:{18fca78c-5679-4bee-aeac-d11ae3d6dc92}:c:\users\drozd\source\repos\e_store\e_store\business\data\
+++Config
+i:{18fca78c-5679-4bee-aeac-d11ae3d6dc92}:c:\users\drozd\source\repos\e_store\e_store\business\data\config\
+++Migrations
+i:{18fca78c-5679-4bee-aeac-d11ae3d6dc92}:c:\users\drozd\source\repos\e_store\e_store\business\data\migrations\
+++Repositories
+i:{18fca78c-5679-4bee-aeac-d11ae3d6dc92}:c:\users\drozd\source\repos\e_store\e_store\business\data\repositories\
+++SeedData
+i:{18fca78c-5679-4bee-aeac-d11ae3d6dc92}:c:\users\drozd\source\repos\e_store\e_store\business\data\seeddata\
+++SpecificationEvaluator.cs
+i:{18fca78c-5679-4bee-aeac-d11ae3d6dc92}:c:\users\drozd\source\repos\e_store\e_store\business\data\specificationevaluator.cs
+++StoreDbContext.cs
+i:{18fca78c-5679-4bee-aeac-d11ae3d6dc92}:c:\users\drozd\source\repos\e_store\e_store\business\data\storedbcontext.cs
+++StoreDbContextSeed.cs
+i:{18fca78c-5679-4bee-aeac-d11ae3d6dc92}:c:\users\drozd\source\repos\e_store\e_store\business\data\storedbcontextseed.cs
+++Projects
+i:{18fca78c-5679-4bee-aeac-d11ae3d6dc92}:projects
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:projects
+++ProductConfiguration.cs
+i:{18fca78c-5679-4bee-aeac-d11ae3d6dc92}:c:\users\drozd\source\repos\e_store\e_store\business\data\config\productconfiguration.cs
+++20211120135018_InitialCreate.cs
+i:{18fca78c-5679-4bee-aeac-d11ae3d6dc92}:c:\users\drozd\source\repos\e_store\e_store\business\data\migrations\20211120135018_initialcreate.cs
+++StoreDbContextModelSnapshot.cs
+i:{18fca78c-5679-4bee-aeac-d11ae3d6dc92}:c:\users\drozd\source\repos\e_store\e_store\business\data\migrations\storedbcontextmodelsnapshot.cs
+++GenericRepository.cs
+i:{18fca78c-5679-4bee-aeac-d11ae3d6dc92}:c:\users\drozd\source\repos\e_store\e_store\business\data\repositories\genericrepository.cs
+++ProductRepository.cs
+i:{18fca78c-5679-4bee-aeac-d11ae3d6dc92}:c:\users\drozd\source\repos\e_store\e_store\business\data\repositories\productrepository.cs
+++brands.json
+i:{18fca78c-5679-4bee-aeac-d11ae3d6dc92}:c:\users\drozd\source\repos\e_store\e_store\business\data\seeddata\brands.json
+++products.json
+i:{18fca78c-5679-4bee-aeac-d11ae3d6dc92}:c:\users\drozd\source\repos\e_store\e_store\business\data\seeddata\products.json
+++types.json
+i:{18fca78c-5679-4bee-aeac-d11ae3d6dc92}:c:\users\drozd\source\repos\e_store\e_store\business\data\seeddata\types.json
+++Microsoft.EntityFrameworkCore.Sqlite (6.0.0)
+i:{18fca78c-5679-4bee-aeac-d11ae3d6dc92}:>558
+++20211120135018_InitialCreate.Designer.cs
+i:{18fca78c-5679-4bee-aeac-d11ae3d6dc92}:c:\users\drozd\source\repos\e_store\e_store\business\data\migrations\20211120135018_initialcreate.designer.cs
+++API
+i:{00000000-0000-0000-0000-000000000000}:API
+++Connected Services 
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:>525
+++Properties
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\properties\
+++wwwroot
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\wwwroot\
+++Controllers
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\controllers\
+++DTOs
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\dtos\
+++Errors
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\errors\
+++Extensions
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\extensions\
+++ApplicationServicesExtensions.cs
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\extensions\applicationservicesextensions.cs
+++SwaggerServiceExtensions.cs
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\extensions\swaggerserviceextensions.cs
+++Helpers
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\helpers\
+++Middleware
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\middleware\
+++appsettings.Development.json
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\appsettings.development.json
+++appsettings.json
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\appsettings.json
+++e_store.db
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\e_store.db
+++Program.cs
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\program.cs
+++Startup.cs
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\startup.cs
+++No service dependencies discovered
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:>526
+++launchSettings.json
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\properties\launchsettings.json
+++images
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\wwwroot\images\
+++BaseApiController.cs
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\controllers\baseapicontroller.cs
+++BuggyController.cs
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\controllers\buggycontroller.cs
+++ErrorController.cs
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\controllers\errorcontroller.cs
+++ProductsController.cs
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\controllers\productscontroller.cs
+++ProductToReturnDTO.cs
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\dtos\producttoreturndto.cs
+++ApiException.cs
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\errors\apiexception.cs
+++ApiResponse.cs
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\errors\apiresponse.cs
+++ApiValidationErrorResponse.cs
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\errors\apivalidationerrorresponse.cs
+++MappingProfiles.cs
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\helpers\mappingprofiles.cs
+++ProductsUrlResolver.cs
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\helpers\productsurlresolver.cs
+++ExceptionMiddleware.cs
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\middleware\exceptionmiddleware.cs
+++Microsoft.AspNetCore.Analyzers
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\program files (x86)\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\program files (x86)\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\program files (x86)\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\program files (x86)\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\program files (x86)\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.Internal.SourceGenerator.Transport
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\program files (x86)\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\program files (x86)\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++Microsoft.AspNetCore.App
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\microsoft.aspnetcore.app
+++AutoMapper.Extensions.Microsoft.DependencyInjection (8.1.1)
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:>545
+++Swashbuckle.AspNetCore (6.2.3)
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:>547
+++products
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\wwwroot\images\products\
+++boot-ang1.png
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\wwwroot\images\products\boot-ang1.png
+++boot-ang2.png
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\wwwroot\images\products\boot-ang2.png
+++boot-core1.png
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\wwwroot\images\products\boot-core1.png
+++boot-core2.png
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\wwwroot\images\products\boot-core2.png
+++boot-redis1.png
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\wwwroot\images\products\boot-redis1.png
+++glove-code1.png
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\wwwroot\images\products\glove-code1.png
+++glove-code2.png
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\wwwroot\images\products\glove-code2.png
+++glove-react1.png
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\wwwroot\images\products\glove-react1.png
+++glove-react2.png
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\wwwroot\images\products\glove-react2.png
+++hat-core1.png
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\wwwroot\images\products\hat-core1.png
+++hat-react1.png
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\wwwroot\images\products\hat-react1.png
+++hat-react2.png
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\wwwroot\images\products\hat-react2.png
+++sb-ang1.png
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\wwwroot\images\products\sb-ang1.png
+++sb-ang2.png
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\wwwroot\images\products\sb-ang2.png
+++sb-core1.png
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\wwwroot\images\products\sb-core1.png
+++sb-core2.png
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\wwwroot\images\products\sb-core2.png
+++sb-react1.png
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\wwwroot\images\products\sb-react1.png
+++sb-ts1.png
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\wwwroot\images\products\sb-ts1.png
