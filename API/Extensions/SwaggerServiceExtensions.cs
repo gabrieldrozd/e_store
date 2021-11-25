@@ -2,7 +2,10 @@
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.SwaggerGen;
 using System;
+using System.IO;
 using System.Reflection;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace API.Extensions
 {
@@ -18,7 +21,9 @@ namespace API.Extensions
                 var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
                 var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
                 c.IncludeXmlComments(xmlPath);
-                c.IncludeXmlComments<ProductSpecParams>();
+                c.IncludeXmlComments(Path.ChangeExtension(
+                    typeof(ProductSpecParams).Assembly.Location, "xml")
+                );
             });
 
             return services;
@@ -35,16 +40,6 @@ namespace API.Extensions
             });
 
             return app;
-        }
-
-        /// <summary>
-        /// Extension method to include XML comments from another project
-        /// </summary>
-        /// <typeparam name="TFromType">Actual class from desired Project</typeparam>
-        /// <param name="options">just extension to actual SwaggerGenOptions(nothing needed to be passed in)</param>
-        private static void IncludeXmlComments<TFromType>(this SwaggerGenOptions options) 
-        { 
-            options.IncludeXmlComments(Path.ChangeExtension(typeof(TFromType).Assembly.Location, "xml")); 
         }
     }
 }

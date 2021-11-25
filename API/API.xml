@@ -30,12 +30,5 @@
             </summary>
             <returns>IReadOnlyList of PRODUCT TYPES</returns>
         </member>
-        <member name="M:API.Extensions.SwaggerServiceExtensions.IncludeXmlComments``1(Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenOptions)">
-            <summary>
-            Extension method to include XML comments from another project
-            </summary>
-            <typeparam name="TFromType">Actual class from desired Project</typeparam>
-            <param name="options">just extension to actual SwaggerGenOptions(nothing needed to be passed in)</param>
-        </member>
     </members>
 </doc>

@@ -68,13 +68,13 @@ i:{9a3f3145-302d-40e6-a8e6-f2891ba97476}:c:\users\drozd\source\repos\e_store\e_s
 i:{18fca78c-5679-4bee-aeac-d11ae3d6dc92}:c:\users\drozd\source\repos\e_store\e_store\business\microsoft.netcore.app
 i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\microsoft.netcore.app
 ++Microsoft.EntityFrameworkCore.Design (6.0.0)
-i:{9a3f3145-302d-40e6-a8e6-f2891ba97476}:>560
-i:{82ce0117-261e-4e83-826f-cc0a85892e17}:>546
+i:{9a3f3145-302d-40e6-a8e6-f2891ba97476}:>545
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:>568
 ++Microsoft.EntityFrameworkCore.Tools (6.0.0)
-i:{9a3f3145-302d-40e6-a8e6-f2891ba97476}:>563
+i:{9a3f3145-302d-40e6-a8e6-f2891ba97476}:>547
 ++Business
 i:{00000000-0000-0000-0000-000000000000}:Business
-i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\business\business.csproj
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\business\bin\debug\net6.0\business.dll
 ++Data
 i:{18fca78c-5679-4bee-aeac-d11ae3d6dc92}:c:\users\drozd\source\repos\e_store\e_store\business\data\
 ++Config
@@ -111,7 +111,7 @@ i:{18fca78c-5679-4bee-aeac-d11ae3d6dc92}:c:\users\drozd\source\repos\e_store\e_s
 ++types.json
 i:{18fca78c-5679-4bee-aeac-d11ae3d6dc92}:c:\users\drozd\source\repos\e_store\e_store\business\data\seeddata\types.json
 ++Microsoft.EntityFrameworkCore.Sqlite (6.0.0)
-i:{18fca78c-5679-4bee-aeac-d11ae3d6dc92}:>558
+i:{18fca78c-5679-4bee-aeac-d11ae3d6dc92}:>546
 ++20211120135018_InitialCreate.Designer.cs
 i:{18fca78c-5679-4bee-aeac-d11ae3d6dc92}:c:\users\drozd\source\repos\e_store\e_store\business\data\migrations\20211120135018_initialcreate.designer.cs
 ++API
@@ -193,9 +193,9 @@ i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\program files (x86)\dotnet\sdk\6.0.1
 ++Microsoft.AspNetCore.App
 i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\microsoft.aspnetcore.app
 ++AutoMapper.Extensions.Microsoft.DependencyInjection (8.1.1)
-i:{82ce0117-261e-4e83-826f-cc0a85892e17}:>545
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:>567
 ++Swashbuckle.AspNetCore (6.2.3)
-i:{82ce0117-261e-4e83-826f-cc0a85892e17}:>547
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:>569
 ++products
 i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\wwwroot\images\products\
 ++boot-ang1.png
@@ -234,3 +234,21 @@ i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_s
 i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\wwwroot\images\products\sb-react1.png
 ++sb-ts1.png
 i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\wwwroot\images\products\sb-ts1.png
+++ProductSpecParams.cs
+i:{9a3f3145-302d-40e6-a8e6-f2891ba97476}:c:\users\drozd\source\repos\e_store\e_store\core\specifications\productspecparams.cs
+++Book-API.xml
+++API.xml
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\api.xml
+++NewFolder
+++assets
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\wwwroot\assets\
+++css
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\wwwroot\assets\css\
+++swaggerStyle.css
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\wwwroot\assets\css\swaggerstyle.css
+++Core.xml
+i:{9a3f3145-302d-40e6-a8e6-f2891ba97476}:c:\users\drozd\source\repos\e_store\e_store\core\core.xml
+++Pagination.cs
+i:{82ce0117-261e-4e83-826f-cc0a85892e17}:c:\users\drozd\source\repos\e_store\e_store\api\helpers\pagination.cs
+++ProductsWithFiltersForCountSpecification.cs
+i:{9a3f3145-302d-40e6-a8e6-f2891ba97476}:c:\users\drozd\source\repos\e_store\e_store\core\specifications\productswithfiltersforcountspecification.cs

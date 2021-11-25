@@ -1,6 +1,11 @@
-﻿using API.Errors;
+﻿using System;
+using API.Errors;
 using System.Net;
 using System.Text.Json;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
 
 namespace API.Middleware
 {
