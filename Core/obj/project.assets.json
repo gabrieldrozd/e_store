@@ -675,31 +675,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\drozd\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\drozd\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\drozd\\source\\repos\\e_store\\e_store\\Core\\Core.csproj",
+      "projectUniqueName": "C:\\Users\\drozd\\source\\repos\\e_store\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "C:\\Users\\drozd\\source\\repos\\e_store\\e_store\\Core\\Core.csproj",
+      "projectPath": "C:\\Users\\drozd\\source\\repos\\e_store\\Core\\Core.csproj",
       "packagesPath": "C:\\Users\\drozd\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\drozd\\source\\repos\\e_store\\e_store\\Core\\obj\\",
+      "outputPath": "C:\\Users\\drozd\\source\\repos\\e_store\\Core\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\drozd\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\drozd\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -746,7 +739,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

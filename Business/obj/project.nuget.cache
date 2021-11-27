@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9uy/l+L2zIfXJ26sD5bKkCpA/8sQ9PJaFWY1ICBSXwbKpoJnzUxndcxrxV34LaSaRXKRTntJZT539JBw7Of69g==",
+  "dgSpecHash": "iQZpGJt5mlIbxASWB5k52ZVdBVtqYoqSL9NNxuPlmB8ta5Zbg33U/IpaBzpsLjZHByJKMDp79ClHg6bOK03hVg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\drozd\\source\\repos\\e_store\\e_store\\Business\\Business.csproj",
+  "projectFilePath": "C:\\Users\\drozd\\source\\repos\\e_store\\Business\\Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\drozd\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.0\\microsoft.data.sqlite.core.6.0.0.nupkg.sha512",
     "C:\\Users\\drozd\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.0\\microsoft.entityframeworkcore.6.0.0.nupkg.sha512",

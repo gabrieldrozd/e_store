@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Core</name>
+    </assembly>
+    <members>
+        <member name="F:Core.Specifications.ProductSpecParams.MaxPageSize">
+            <summary>
+            Maximum size of page
+            </summary>
+        </member>
+        <member name="P:Core.Specifications.ProductSpecParams.PageIndex">
+            <summary>
+            Index of page
+            </summary>
+        </member>
+        <member name="P:Core.Specifications.ProductSpecParams.PageSize">
+            <summary>
+            Size of page
+            </summary>
+        </member>
+        <member name="P:Core.Specifications.ProductSpecParams.BrandId">
+            <summary>
+            Id of PRODUCTS BRAND
+            </summary>
+        </member>
+        <member name="P:Core.Specifications.ProductSpecParams.TypeId">
+            <summary>
+            Id of PRODUCTS TYPE
+            </summary>
+        </member>
+        <member name="P:Core.Specifications.ProductSpecParams.Sort">
+            <summary>
+            Sort parameter (priceAsc | priceDesc)
+            </summary>
+        </member>
+        <member name="P:Core.Specifications.ProductSpecParams.Search">
+            <summary>
+            Search phrase to be found
+            </summary>
+        </member>
+    </members>
+</doc>

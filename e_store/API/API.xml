@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>API</name>
+    </assembly>
+    <members>
+        <member name="M:API.Controllers.ProductsController.GetProduct(System.Int32)">
+            <summary>
+            Action used to return single PRODUCT entity with given Id
+            </summary>
+            <param name="productId">Id of entity to be returned</param>
+            <returns>Entity of type Product with id = productId</returns>
+        </member>
+        <member name="M:API.Controllers.ProductsController.GetProducts(Core.Specifications.ProductSpecParams)">
+            <summary>
+            Action used to return ReadOnlyList of PRODUCTS with specified filters
+            </summary>
+            <param name="productParams">Body of few parameters used to filter, sort or to limit list of PRODUCTS</param>
+            <returns>IReadOnlyList of PRODUCTS with executed actions of filtering, sorting, limiting the List</returns>
+        </member>
+        <member name="M:API.Controllers.ProductsController.GetProductBrands">
+            <summary>
+            Action used to return ReadOnlyList of PRODUCT BRANDS
+            </summary>
+            <returns>IReadOnlyList of PRODUCT BRANDS</returns>
+        </member>
+        <member name="M:API.Controllers.ProductsController.GetProductTypes">
+            <summary>
+            Action used to return ReadOnlyList of PRODUCT TYPES
+            </summary>
+            <returns>IReadOnlyList of PRODUCT TYPES</returns>
+        </member>
+    </members>
+</doc>
